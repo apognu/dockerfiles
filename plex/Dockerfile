@@ -1,4 +1,5 @@
 FROM arm32v7/ubuntu:18.04
+LABEL maintainer 'Antoine POPINEAU <antoine.popineau@appscho.com>'
 
 ARG PLEX_DOWNLOAD_URL
 ARG S6_OVERLAY_VERSION=v1.17.2.0

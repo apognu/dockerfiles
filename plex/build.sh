@@ -20,4 +20,3 @@ DOWNLOAD_URL=$(echo "$SPEC" | jq -r '.computer.Linux.releases[] | select(.build 
 
 docker build --build-arg PLEX_DOWNLOAD_URL=$DOWNLOAD_URL -t apognu/plex-arm:$VERSION .
 docker push apognu/plex-arm:$VERSION
-
