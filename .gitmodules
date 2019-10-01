@@ -1,3 +1,6 @@
 [submodule "plex/pms-docker"]
 	path = plex/pms-docker
 	url = https://github.com/plexinc/pms-docker
+[submodule "funkwhale/docker-funkwhale"]
+	path = funkwhale/docker-funkwhale
+	url = https://github.com/thetarkus/docker-funkwhale
