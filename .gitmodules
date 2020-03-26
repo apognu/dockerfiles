@@ -4,3 +4,6 @@
 [submodule "funkwhale/docker-funkwhale"]
 	path = funkwhale/docker-funkwhale
 	url = https://github.com/thetarkus/docker-funkwhale
+[submodule "k8dash/k8dash"]
+	path = k8dash/k8dash
+	url = https://github.com/herbrandson/k8dash

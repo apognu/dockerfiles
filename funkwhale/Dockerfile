@@ -1,4 +1,4 @@
-FROM arm32v7/alpine:3.10
+FROM arm64v8/alpine:3.10
 MAINTAINER thetarkus
 
 
